@@ -1,13 +1,13 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "butcl",
+  "name": "butcl",
+  "description": "butcl is a minecraft MOD to do butterfly click for my friend.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://github.com/haruki7049/butcl",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
+  "authorList": ["haruki7049"],
   "credits": "The Forge and FML guys, for making this example",
   "logoFile": "",
   "screenshots": [],
