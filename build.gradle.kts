@@ -32,7 +32,7 @@ configure<net.minecraftforge.gradle.user.UserBaseExtension> {
     // the mappings can be changed at any time, and must be in the following format.
     // snapshot_YYYYMMDD   snapshot are built nightly.
     // stable_#            stables are built at the discretion of the MCP team.
-    // Use non-default mappings at your own risk. they may not allways work.
+    // Use non-default mappings at your own risk. they may not always work.
     // simply re-run your setup task after changing the mappings to update your workspace.
     mappings = "stable_20"
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
@@ -41,12 +41,12 @@ configure<net.minecraftforge.gradle.user.UserBaseExtension> {
 dependencies {
     // you may put jars on which you depend on in ./libs
     // or you may define them like so..
-    //"compile"("some.group:artifact:version:classifier")
-    //"compile"("some.group:artifact:version")
+    //implementation("some.group:artifact:version:classifier")
+    //implementation("some.group:artifact:version")
       
     // real examples
-    //"compile"("com.mod-buildcraft:buildcraft:6.0.8:dev")  // adds buildcraft to the dev env
-    //"compile"("com.googlecode.efficient-java-matrix-library:ejml:0.24") // adds ejml to the dev env
+    //implementation("com.mod-buildcraft:buildcraft:6.0.8:dev")  // adds buildcraft to the dev env
+    //implementation("com.googlecode.efficient-java-matrix-library:ejml:0.24") // adds ejml to the dev env
 
     // the 'provided' configuration is for optional dependencies that exist at compile-time but might not at runtime.
     //"provided"("com.mod-buildcraft:buildcraft:6.0.8:dev")
